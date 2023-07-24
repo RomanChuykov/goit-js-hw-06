@@ -16,7 +16,7 @@ const gallery=document.querySelector('.gallery');
 const img=images.map((elem)=>
   `<li> 
     <img src="${elem.url}" 
-    width=130 height=100 
+    width="130" height="100" 
     alt="${elem.alt}">
     
   </li>`

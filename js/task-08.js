@@ -11,7 +11,7 @@ function subFunction(event){
         return alert("Всі поля повинні бути заповнені");
       }
       const result={
-        login:form.elements.email.value,
+        email:form.elements.email.value,
         password:form.elements.password.value,
       }
       console.log(result)
